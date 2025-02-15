@@ -1,68 +1,59 @@
 /* styles.css */
 
-/* GLOBAL STYLES */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-  }
+  margin: 0;
+  padding: 0;
+  background-color: #4D5042; /* user-specified dark background */
+  color: #000000; /* light text for contrast */
+  font-family: Arial, sans-serif;
+}
+header {
+  background: #2e5781;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+h2 {
+  color: #2e5781;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background: #2e5781;
+}
+nav li {
+  margin: 0 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:hover {
+  background: #004399;
+  border-radius: 4px;
+}
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #2e5781;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
   
-  /* HEADER */
-  header {
-    background: #0073e6;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  /* NAVIGATION BAR */
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    background: #005bb5;
-  }
-  nav li {
-    margin: 0 10px;
-  }
-  nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-  }
-  nav a:hover {
-    background: #004399;
-    border-radius: 4px;
-  }
-  
-  /* MAIN CONTAINER */
-  .container {
-    width: 80%;
-    max-width: 800px;
-    margin: 20px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
-  /* FOOTER */
-  footer {
-    text-align: center;
-    padding: 10px;
-    background: #0073e6;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  /* HEADINGS */
-  h2 {
-    color: #0073e6;
-  }
+
   
