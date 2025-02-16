@@ -3,8 +3,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #4D5042; /* user-specified dark background */
-  color: #000000; /* light text for contrast */
+  background-color: #4D5042; 
+  color: #000000; 
   font-family: Arial, sans-serif;
 }
 header {
@@ -37,13 +37,26 @@ nav a:hover {
   border-radius: 4px;
 }
 .container {
-  width: 80%;
-  max-width: 800px;
   margin: 20px auto;
-  background: white;
+  width: 80%;
+  max-width: 1200px;
+  background-color: #ffffff;
+  color: #333333;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-container {
+  display: flex;
+  flex-wrap: wrap; /* wrapping for smaller screens */
+  gap: 20px;
+  align-items: center;
+}
+.profile-pic img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%; /* making the image circular */
 }
 footer {
   text-align: center;
