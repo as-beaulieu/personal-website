@@ -166,12 +166,24 @@ nav a:hover {
   height: 40px;
   width: 120px;
   max-height: 100px;
-  max-width: 200;
+  max-width: 200px;
   border-radius: 12px;
   background-color: #2e5781;
   color: white;
 }
 .link-button-wide:hover {
+  background-color: #004399;
+}
+.link-button-xl {
+  height: 40px;
+  width: 160px;
+  max-height: 100px;
+  max-width: 200px;
+  border-radius: 12px;
+  background-color: #2e5781;
+  color: white;
+}
+.link-button-xl:hover {
   background-color: #004399;
 }
 .nav-container {
